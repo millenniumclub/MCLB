@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Millenniumclubcoin
+Comment=Millenniumclubcoin P2P Cryptocurrency
+Comment[fr]=Millenniumclubcoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Millenniumclubcoin, eşten eşe kriptografik sanal para birimi
+Exec=millenniumclubcoin-qt %u
+Terminal=false
+Type=Application
+Icon=millenniumclubcoin128
+MimeType=x-scheme-handler/millenniumclubcoin;
+Categories=Office;Finance;

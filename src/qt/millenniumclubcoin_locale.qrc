@@ -1,0 +1,30 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/millenniumclubcoin_bg.qm</file>
+        <file alias="ca">locale/millenniumclubcoin_ca.qm</file>
+        <file alias="cs">locale/millenniumclubcoin_cs.qm</file>
+        <file alias="da">locale/millenniumclubcoin_da.qm</file>
+        <file alias="de">locale/millenniumclubcoin_de.qm</file>
+        <file alias="en">locale/millenniumclubcoin_en.qm</file>
+        <file alias="en_US">locale/millenniumclubcoin_en_US.qm</file>
+        <file alias="es">locale/millenniumclubcoin_es.qm</file>
+        <file alias="fi">locale/millenniumclubcoin_fi.qm</file>
+        <file alias="fr_FR">locale/millenniumclubcoin_fr_FR.qm</file>
+        <file alias="hr">locale/millenniumclubcoin_hr.qm</file>
+        <file alias="it">locale/millenniumclubcoin_it.qm</file>
+        <file alias="ja">locale/millenniumclubcoin_ja.qm</file>
+        <file alias="ko_KR">locale/millenniumclubcoin_ko_KR.qm</file>
+        <file alias="nl">locale/millenniumclubcoin_nl.qm</file>
+        <file alias="pl">locale/millenniumclubcoin_pl.qm</file>
+        <file alias="pt">locale/millenniumclubcoin_pt.qm</file>
+        <file alias="pt_BR">locale/millenniumclubcoin_pt_BR.qm</file>
+        <file alias="ro_RO">locale/millenniumclubcoin_ro_RO.qm</file>
+        <file alias="ru">locale/millenniumclubcoin_ru.qm</file>
+        <file alias="sk">locale/millenniumclubcoin_sk.qm</file>
+        <file alias="sv">locale/millenniumclubcoin_sv.qm</file>
+        <file alias="tr">locale/millenniumclubcoin_tr.qm</file>
+        <file alias="uk">locale/millenniumclubcoin_uk.qm</file>
+        <file alias="zh_CN">locale/millenniumclubcoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/millenniumclubcoin_zh_TW.qm</file>
+    </qresource>
+</RCC>

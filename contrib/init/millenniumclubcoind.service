@@ -1,0 +1,26 @@
+[Unit]
+Description=Millenniumclubcoin's distributed currency daemon
+After=network.target
+
+[Service]
+User=millenniumclubcoin
+Group=millenniumclubcoin
+
+Type=forking
+PIDFile=/var/lib/millenniumclubcoind/millenniumclubcoind.pid
+
+ExecStart=/usr/bin/millenniumclubcoind -daemon -pid=/var/lib/millenniumclubcoind/millenniumclubcoind.pid \
+          -conf=/etc/millenniumclubcoin/millenniumclubcoin.conf -datadir=/var/lib/millenniumclubcoind
+
+ExecStop=-/usr/bin/millenniumclubcoin-cli -conf=/etc/millenniumclubcoin/millenniumclubcoin.conf \
+         -datadir=/var/lib/millenniumclubcoind stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
