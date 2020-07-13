@@ -3,7 +3,7 @@ This is the New MillenniumClubCoin repository based on PivX with a new ticker MC
 
 # MCLB Bootstrap available
 
-How do you use a bootstrap: (go to (https://portfolio.millenniumclub.ca/mclb-bootstrap-2020-07-13.zip) to get the 2010-07-13 bootstrap).
+How do you use a bootstrap: (click on https://portfolio.millenniumclub.ca/mclb-bootstrap-2020-07-13.zip to get the 2010-07-13 bootstrap)
 
 - Stop/shutdown your wallet client if it is running.
 - Navigate to your MCLB data directory (%APPDATA%).
