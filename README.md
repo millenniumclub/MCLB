@@ -1,4 +1,13 @@
 # MillenniumClubCoin
 This is the New MillenniumClubCoin repository based on PivX with a new ticker MCLB
 
-Those who own the original MILL coin based on the v0.14.x.x chain must swap to this new version of MCLB. Swap is done on the Millennium Platform (https://portfolio.millenniumclub.ca/) with a ratio of 10 MILL to 1 MCLB.
+# MCLB Bootstrap available
+
+How do you use a bootstrap: (go to (https://portfolio.millenniumclub.ca/mclb-bootstrap-2020-07-13.zip) to get the 2010-07-13 bootstrap).
+
+- Stop/shutdown your wallet client if it is running.
+- Navigate to your MCLB data directory (%APPDATA%).
+- Delete ONLY the 4 folders (blocks, chainstate, sporks, zerocoin) and 2 files (banlist.dat, and peers.dat) from your data directory.
+- Extract the bootstrap zip file you just downloaded to obtain a file called "bootstrap.dat".
+- Place the "bootstrap.dat" file in your data directory.
+- Start your wallet client.
